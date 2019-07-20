@@ -1,0 +1,26 @@
+﻿生成启动时间为 2019/7/5 15:21:10。
+     1>项目“D:\Documents\Visual Studio 2012\Projects\0626Server\0626Server\0626Server.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../IOCP /I../Packdef /I../Mysql /I../Kernel /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Kernel\TCPKernel.cpp
+         TCPKernel.cpp
+     1>d:\documents\visual studio 2012\projects\0626server\kernel\tcpkernel.cpp(148): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>d:\documents\visual studio 2012\projects\0626server\kernel\tcpkernel.cpp(331): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+     1>d:\documents\visual studio 2012\projects\0626server\kernel\tcpkernel.cpp(337): warning C4244: “=”: 从“__int64”转换到“INT32”，可能丢失数据
+     1>d:\documents\visual studio 2012\projects\0626server\kernel\tcpkernel.cpp(425): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>d:\documents\visual studio 2012\projects\0626server\kernel\tcpkernel.cpp(462): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>d:\documents\visual studio 2012\projects\0626server\kernel\tcpkernel.cpp(505): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Visual Studio 2012\Projects\0626Server\Debug\0626Server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Visual Studio 2012\Projects\0626Server\Debug\0626Server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Visual Studio 2012\Projects\0626Server\Debug\0626Server.lib" /MACHINE:X86 Debug\IOCPServer.obj
+         Debug\TCPKernel.obj
+         Debug\CMySql.obj
+         Debug\main.obj
+         0626Server.vcxproj -> D:\Documents\Visual Studio 2012\Projects\0626Server\Debug\0626Server.exe
+     1>已完成生成项目“D:\Documents\Visual Studio 2012\Projects\0626Server\0626Server\0626Server.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.64

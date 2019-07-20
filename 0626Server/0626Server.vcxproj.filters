@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="协议">
+      <UniqueIdentifier>{13f85c9b-580b-433a-b92b-cb2da22d9be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="网络">
+      <UniqueIdentifier>{f914fbfd-3948-4d9f-bda9-c83e3c6cd030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="核心类">
+      <UniqueIdentifier>{068a14f3-b521-43b2-bece-10c046a267be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据库">
+      <UniqueIdentifier>{2925a104-14af-4674-99c4-506f64c7f3b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IOCP\IOCPServer.cpp">
+      <Filter>网络</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kernel\TCPKernel.cpp">
+      <Filter>核心类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mysql\CMySql.cpp">
+      <Filter>数据库</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Packdef\Packdef.h">
+      <Filter>协议</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IOCP\INet.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IOCP\IOCPServer.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IOCP\MyLock.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IOCP\MyQueue.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Kernel\IKernel.h">
+      <Filter>核心类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Kernel\TCPKernel.h">
+      <Filter>核心类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mysql\CMySql.h">
+      <Filter>数据库</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
